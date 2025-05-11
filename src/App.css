@@ -288,7 +288,7 @@ body {
 }
 
 .skill p {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
   line-height: 1.5;
   margin: 0;
@@ -329,7 +329,7 @@ body {
 }
 
 .section .project-card p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   color: white; /* Darker text for easy reading */
 }
@@ -354,6 +354,67 @@ body {
   color: #006400; /* DarkGreen for hover effect */
   text-decoration: underline;
 }
+
+.contact-section {
+  padding: 80px 30px;
+  text-align: left;
+  background-color: transparent; /* No background */
+  color: #f0f0f0;
+}
+
+.contact-section h2 {
+  font-size: 34px;
+  margin-bottom: 40px;
+  color: #ff4f81; /* Pink theme */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 16px;
+  max-width: 800px;
+}
+
+.contact-container p {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-left: 4px solid #ff4f81;
+  padding-left: 16px;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.contact-container p:hover {
+  transform: translateX(6px);
+}
+
+.contact-container i {
+  color: #ff4f81;
+  font-size: 20px;
+  width: 24px;
+  text-align: center;
+}
+
+.contact-container span {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container a {
+  color: #ff4f81;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  word-break: break-word;
+}
+
+.contact-container a:hover {
+
+  text-decoration: underline;
+}
+
 
 .scroll-top {
   position: fixed;

@@ -33,10 +33,10 @@ function App() {
         </div>
         <div className="contact-info">
           <ul>
-            <li><a href="mailto:someone@example.com" className="email-icon" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope"></i></a></li>
-            <li><a href="tel:+1234567890" className="phone-icon" target="_blank" rel="noopener noreferrer"><i className="fas fa-phone"></i></a></li>
+            <li><a href="mailto:phanikumar.peravali07@gmail.com" className="email-icon" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope"></i></a></li>
+            <li><a href="+91-9573478356" className="phone-icon" target="_blank" rel="noopener noreferrer"><i className="fas fa-phone"></i></a></li>
             <li><a href="https://www.linkedin.com/in/phani-kumar-peravali" className="linkedin-icon" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/yourusername" className="github-icon" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+            <li><a href="https://github.com/Phani-Peravali" className="github-icon" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
           </ul>
         </div>
         <div className='nav-bar'>
@@ -72,7 +72,7 @@ function App() {
         <section id="about" className="section">
           <h2>About Me</h2>
           <h3>What I do</h3>
-          <p>I'am a enthuist Software development fresher looking for opportunities to work as a professional web development engineer with a reputed and ambitious team. Below are my skills. Check them out once.</p>
+          <p>I'am a enthusiast Software development fresher looking for opportunities to work as a professional web development engineer with a reputed and ambitious team. Below are my skills. Check them out once.</p>
         </section>
 
         <section id="skills" className="section">
@@ -118,7 +118,7 @@ function App() {
             <div className="project-card">
               <h3>Personal Portfolio</h3>
               <p>A website to allow viewers to get the complete portfolio.</p>
-              <a href="https://github.com/Phani-Peravali/Voice-Enabled-Examination-Project " target="_blank" rel="noopener noreferrer" className="github-link">
+              <a href="https://github.com/Phani-Peravali/Portfolio" target="_blank" rel="noopener noreferrer" className="github-link">
                 <i className="fab fa-github"></i> View on GitHub
               </a>
             </div>
@@ -137,7 +137,28 @@ function App() {
 
         <section id="contact" className="section">
           <h2>Contact</h2>
-          <p>You can reach me here.</p>
+          <div className="contact-container">
+            <p>
+              <i className="fas fa-envelope"></i>
+              <span><strong>Email:</strong> <a href="mailto:phanikumar.peravali07@gmail.com">phanikumar.peravali07@gmail.com</a></span>
+            </p>
+            <p>
+              <i className="fas fa-phone"></i>
+              <span><strong>Phone:</strong> +91-9573478356</span>
+            </p>
+            <p>
+              <i className="fas fa-map-marker-alt"></i>
+              <span><strong>Location:</strong> Hyderabad, India</span>
+            </p>
+            <p>
+              <i className="fab fa-github"></i>
+              <span><strong>GitHub:</strong> <a href="https://github.com/Phani-Peravali"  rel="noopener noreferrer">Phani-Peravali</a></span>
+            </p>
+            <p>
+              <i className="fab fa-linkedin"></i>
+              <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/phani-kumar-peravali" target="_blank" rel="noopener noreferrer">linkedin.com/in/phani-kumar-peravali</a></span>
+            </p>
+          </div>
         </section>
       </div>
       <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="scroll-top">↑</button>
