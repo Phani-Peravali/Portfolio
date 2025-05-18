@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import ProfilePic from './Assets/Photo.jpg';
+import ProfilePic from './Assets/Photo.JPG';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
